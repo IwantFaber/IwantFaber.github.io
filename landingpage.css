@@ -8,7 +8,7 @@ p{ font-family: ubuntu;
 	height: auto;
 }
 
-header p {
+#header_wording {
 	position:absolute;
 	top: 200px;
 	right:0;
