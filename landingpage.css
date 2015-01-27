@@ -10,11 +10,14 @@ p{ font-family: ubuntu;
 
 #header_wording {
 	color: white;
-	font: 24px/45px Roboto; 
+	font: bold 4px/45px Roboto; 
 	background: rgba(0,0,0, 0.5);
 	position:absolute;
 	top: 200px;
 	right:200px;
 	border-radius: 10px;
 	padding 10px;
+}
+#space {
+	padding: 10px;
 }
