@@ -15,5 +15,6 @@ p{ font-family: ubuntu;
 	position:absolute;
 	top: 200px;
 	right:200px;
+	border-radius: 10px;
 	padding 10px;
 }
