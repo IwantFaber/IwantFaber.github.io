@@ -9,6 +9,7 @@ p{ font-family: ubuntu;
 }
 
 #header_wording {
+	background: rgba(0,0,0, 0.7);
 	position:absolute;
 	top: 200px;
 	right:0;
