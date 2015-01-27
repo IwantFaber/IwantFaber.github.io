@@ -3,5 +3,5 @@ p{ font-family: ubuntu;
 }
 
 #bridge {
-	z-index: 1
+	z-index: 99
 }
