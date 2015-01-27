@@ -9,8 +9,11 @@ p{ font-family: ubuntu;
 }
 
 #header_wording {
-	background: rgba(0,0,0, 0.7);
+	color: white;
+	font: 24px/45px Roboto; 
+	background: rgba(0,0,0, 0.5);
 	position:absolute;
 	top: 200px;
-	right:0;
+	right:200px;
+	padding 10px;
 }
