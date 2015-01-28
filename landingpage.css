@@ -8,15 +8,19 @@ p{ font-family: ubuntu;
 	height: auto;
 }
 
-#header_wording {
+#form {
 	color: white;
-	font: bold 25px/45px Roboto; 
+	font: 25px/45px Roboto; 
 	background: rgba(0,0,0, 0.5);
 	position:absolute;
 	top: 200px;
 	right:200px;
 	border-radius: 10px;
 	padding 10px;
+}
+
+#form h1 {
+	font: bold 25px Roboto
 }
 .space {
 	padding: 10px;
