@@ -10,15 +10,15 @@ p{ font-family: ubuntu;
 
 #form {
 	color: white;
-	font: 12px Roboto; 
-	background: #111e33; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  #111e33 0%, #111e33 29%, #111e33 41%, #111e33 49%, #100b21 68%, #000000 99%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#111e33), color-stop(29%,#111e33), color-stop(41%,#111e33), color-stop(49%,#111e33), color-stop(68%,#100b21), color-stop(99%,#000000)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  #111e33 0%,#111e33 29%,#111e33 41%,#111e33 49%,#100b21 68%,#000000 99%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  #111e33 0%,#111e33 29%,#111e33 41%,#111e33 49%,#100b21 68%,#000000 99%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  #111e33 0%,#111e33 29%,#111e33 41%,#111e33 49%,#100b21 68%,#000000 99%); /* IE10+ */
-background: radial-gradient(ellipse at center,  #111e33 0%,#111e33 29%,#111e33 41%,#111e33 49%,#100b21 68%,#000000 99%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111e33', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	font: 15px Roboto; 
+background: #171717; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #171717 0%, #171717 29%, #171717 41%, #171717 49%, #0f0f0f 84%, #000000 99%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#171717), color-stop(29%,#171717), color-stop(41%,#171717), color-stop(49%,#171717), color-stop(84%,#0f0f0f), color-stop(99%,#000000)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #171717 0%,#171717 29%,#171717 41%,#171717 49%,#0f0f0f 84%,#000000 99%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #171717 0%,#171717 29%,#171717 41%,#171717 49%,#0f0f0f 84%,#000000 99%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #171717 0%,#171717 29%,#171717 41%,#171717 49%,#0f0f0f 84%,#000000 99%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #171717 0%,#171717 29%,#171717 41%,#171717 49%,#0f0f0f 84%,#000000 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 	width: 500px;
 	position:absolute;
@@ -28,6 +28,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111e33', end
 	padding 10px;
 }
 
+#form li {
+	font: 15px Roboto;
+}
 #form h1 {
 	font: bold 25px Roboto
 }
