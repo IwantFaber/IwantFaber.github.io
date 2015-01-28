@@ -11,7 +11,8 @@ p{ font-family: ubuntu;
 #form {
 	color: white;
 	font: 25px/45px Roboto; 
-	background: rgba(0,0,0, 0.5);
+	background: rgb(0,0,0);
+	width: 600px;
 	position:absolute;
 	top: 200px;
 	right:200px;
