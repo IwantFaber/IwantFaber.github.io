@@ -41,10 +41,13 @@ box-shadow:         9px 7px 12px 0px rgba(50, 50, 50, 0.75);
 	text-align: center;
 }
 
-input [type=submit] {
-background: #ffa84c;
-width: 200px;
-height: 100px;
+form {
+
+	width: 4em;
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	display:block;
 }
 
 .space {
