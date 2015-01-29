@@ -31,13 +31,13 @@ background: linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70
 box-shadow:         9px 7px 12px 0px rgba(50, 50, 50, 0.75);
 }
 
-#form ul {
+#benefits ul {
 	font: 22px Ubuntu;
 	text-align:left;
 	padding-bottom:15px;
 }
 
-#form li {
+#benefits li {
 	padding:7px;
 }
 
