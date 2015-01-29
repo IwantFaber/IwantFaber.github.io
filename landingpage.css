@@ -32,7 +32,7 @@ box-shadow:         9px 7px 12px 0px rgba(50, 50, 50, 0.75);
 }
 
 #benefits {
-	width:45%;
+	float: left;
 }
 #benefits ul {
 list-style-image:url(Semi_success_Icon_128.png);
@@ -40,7 +40,7 @@ list-style-image:url(Semi_success_Icon_128.png);
 #benefits ul {
 	font: 15px bold Ubuntu;
 	text-align:left;
-	left:35%;
+	left:50%;
 }
 
 #benefits li {
