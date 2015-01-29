@@ -35,6 +35,9 @@ box-shadow:         9px 7px 12px 0px rgba(50, 50, 50, 0.75);
 #form li {
 	font: 25px Ubuntu;
 }
+#form ul {
+	font: 18px Ubuntu;
+}
 #form h1 {
 	font: bold 30px Roboto;
 	color: #ffffff;
@@ -48,6 +51,6 @@ label {
 	width: 100px;
 }
 
-.space {
-	padding: 10px;
+#input {
+	text-align: center;
 }
