@@ -19,7 +19,7 @@ background: linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70
 	width: 500px;
 	position:absolute;
 	top: 15%;
-	float: right;
+	right: 10%;
 	border-radius: 10px;
 	padding: 1px;
 	border-style: solid;
