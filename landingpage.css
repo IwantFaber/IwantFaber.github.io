@@ -27,6 +27,9 @@ background: linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70
 	border-color: black;
 	border-width: medium;
 	height: 500px;
+	-webkit-box-shadow: 5px 4px 6px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    5px 4px 6px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         5px 4px 6px 0px rgba(50, 50, 50, 0.75);
 }
 
 #form li {
