@@ -19,7 +19,7 @@ background: linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70
 	width: 500px;
 	position:absolute;
 	top: 75px;
-	right:135px;
+	right:75px;
 	border-radius: 10px;
 	padding: 1px;
 	border-style: solid;
@@ -35,9 +35,8 @@ box-shadow:         9px 7px 12px 0px rgba(50, 50, 50, 0.75);
 list-style-image:url(Semi_success_Icon_128.png);
 }
 #benefits ul {
-	font: 22px Ubuntu;
+	font: 18px Ubuntu;
 	text-align:left;
-	padding-bottom:15px;
 }
 
 #benefits li {
