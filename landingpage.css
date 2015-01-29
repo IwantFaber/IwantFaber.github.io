@@ -33,6 +33,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 #form h1 {
 	font: bold 25px Roboto;
 }
+
+input [type=submit] {
+background: #ffa84c; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #ffa84c 5%, #ffa84c 24%, #ff7b0d 68%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(5%,#ffa84c), color-stop(24%,#ffa84c), color-stop(68%,#ff7b0d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  #ffa84c 5%,#ffa84c 24%,#ff7b0d 68%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  #ffa84c 5%,#ffa84c 24%,#ff7b0d 68%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  #ffa84c 5%,#ffa84c 24%,#ff7b0d 68%); /* IE10+ */
+background: linear-gradient(45deg,  #ffa84c 5%,#ffa84c 24%,#ff7b0d 68%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+font: Roboto;
+width: 200px;
+height: 100px;
+}
+
 .space {
 	padding: 10px;
 }
