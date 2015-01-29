@@ -32,14 +32,14 @@ box-shadow:         9px 7px 12px 0px rgba(50, 50, 50, 0.75);
 }
 
 #form ul {
-	font: 25px Ubuntu;
+	font: 22px Ubuntu;
 	text-align:left;
 	padding right:15px;
 	padding-bottom:15px;
 }
 
 #form li {
-	padding:5px;
+	padding:7px;
 }
 
 #form h1 {
