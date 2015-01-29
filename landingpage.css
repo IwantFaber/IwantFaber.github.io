@@ -32,6 +32,9 @@ box-shadow:         9px 7px 12px 0px rgba(50, 50, 50, 0.75);
 }
 
 #benefits ul {
+list-style-image:url("Semi_success_Icon_128.png");
+}
+#benefits ul {
 	font: 22px Ubuntu;
 	text-align:left;
 	padding-bottom:15px;
