@@ -19,7 +19,7 @@ background: linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70
 	width: 500px;
 	position:absolute;
 	top: 15%;
-	right:15%;
+	float: right;
 	border-radius: 10px;
 	padding: 1px;
 	border-style: solid;
@@ -38,7 +38,7 @@ box-shadow:         9px 7px 12px 0px rgba(50, 50, 50, 0.75);
 list-style-image:url(Semi_success_Icon_128.png);
 }
 #benefits ul {
-	font: 15px bold Ubuntu;
+	font: 25px bold Ubuntu;
 	text-align:left;
 	left:50%;
 }
@@ -48,7 +48,7 @@ list-style-image:url(Semi_success_Icon_128.png);
 }
 
 #arrow {
-		right: 10%;
+		float: right
 }
 
 #form h1 {
