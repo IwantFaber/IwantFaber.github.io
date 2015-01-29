@@ -19,8 +19,8 @@ background: linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70
 
 	width: 500px;
 	position:absolute;
-	top: 200px;
-	right:150px;
+	top: 135px;
+	right:135px;
 	border-radius: 10px;
 	padding 10px;
 	border-style: solid;
@@ -33,7 +33,8 @@ background: linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70
 	font: 15px Roboto;
 }
 #form h1 {
-	font: bold 25px Roboto;
+	font: bold 45px Roboto;
+	color: white
 }
 
 input [type=submit] {
