@@ -10,6 +10,14 @@ p{ font-family: ubuntu;
 #form {
 	color: white;
 	font: 15px Roboto; 
+background: #f85032; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #f85032 0%, #f6290c 0%, #f16f5c 26%, #e73827 70%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#f85032), color-stop(0%,#f6290c), color-stop(26%,#f16f5c), color-stop(70%,#e73827)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70%); /* IE10+ */
+background: linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 	width: 500px;
 	position:absolute;
