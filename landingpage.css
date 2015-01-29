@@ -8,7 +8,7 @@ p{ font-family: ubuntu;
 }
 
 #form {
-	color: white;
+	color: black;
 	font: 15px Roboto; 
 background: #f85032; /* Old browsers */
 background: -moz-linear-gradient(45deg,  #f85032 0%, #f6290c 0%, #f16f5c 26%, #e73827 70%); /* FF3.6+ */
@@ -25,7 +25,9 @@ background: linear-gradient(45deg,  #f85032 0%,#f6290c 0%,#f16f5c 26%,#e73827 70
 	border-radius: 10px;
 	padding 10px;
 	border-style: solid;
+	border: black;
 	border-width: thin;
+	height: 700px;
 }
 
 #form li {
