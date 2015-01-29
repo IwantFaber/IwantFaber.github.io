@@ -65,3 +65,6 @@ label {
 	width: 100px;
 }
 
+#choices: {
+	clear:both;
+}
