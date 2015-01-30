@@ -19,11 +19,11 @@
 
 </script>
 
-<link rel="stylesheet" type="text/css" href="newcss.css">
+<link rel="stylesheet" type="text/css" href="landingpage.css">
 <link rel="stylesheet" type="text/javascript" href="jquery-2.1.3.min.js">
 <link href='http://fonts.googleapis.com/css?family=Roboto:900' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-
+<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Marvel:400italic' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -48,20 +48,19 @@
 				<li>The no fuss app that brings work directly to you, the plumber</li>
 				<li>Farber doesnt lock you in. Its an on demand service for both plumbers and customers. GET IT NOW!</li>
 			</ul>
-			<img  id="arrow" src="arrow.png" alt="arrow">
 			<p>"Put simply. Farber is a middleman. Its for anyone looking for a plumber and for any plumber looking for their next customer. 
 			Farber isnt a review site. It isnt Checkatrade. Its an app that lets you book and pay for a local and independent plumber. Whenever YOU want."  </p>
 			
 		</section>
 		
 		<section id="form">
-			<h1>ORDER AN EMERGENCY PLUMBER WITH FARBER TODAY</h1>
-			<form action="//formspree.io/Rob1white12@me.com" method="post">
-    		<p><label for="name">Name </label><input type="text" name="name"></p>
-   			<p><label for="location">Location </label><input type="text" name="location"></p>
-    		<p><label for="Email">Email </label><input type="email" name="_replyto"></p>
-    		<p><input type="radio" name="User_Type" value="Plumber" checked>Plumber<br><input type="radio" name="User_Type" value="Customer">Customer</p>
-			<p><input type="submit" value="Start using Farber"></p>
+			<h1>ORDER AN EMERGENCY PLUMBER WITH FARBER TODAY</h1>			
+			<form class="form" action="//formspree.io/Rob1white12@me.com" method="post">
+    		<p><label for="name">Name </label><input class="inputter" type="text" name="name" placeholder="Name"></p>
+   			<p><label for="location">Location </label><input class="inputter" type="text" name="location" placeholder="Location"></p>
+    		<p><label for="Email">Email </label><input class="inputter" type="email" name="_replyto" placeholder="Email"></p>
+    		<p><input id="p_l" type="radio" name="User_Type" value="Plumber" checked>Plumber<input type="radio" name="User_Type" value="Customer">Customer</p>
+			<p><input class="btn" type="submit" value="Start using Farber"></p>
     		<input type="hidden" name="_subject" value="Im interested in using Farber" />
 			</form>
 		</section>
