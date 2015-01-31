@@ -166,6 +166,19 @@ background: linear-gradient(to bottom,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /*
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
 
 }
-#contact {
-	right: 10%;
-}
+
+.social-button-container {
+                /** 
+                 * This is a nice CSS trick that allows you to clear an element
+                 * without having to add extra elements to your HTML. This helps
+                 * seperate content from design, which should always be an architectural
+                 * goal.
+                 */
+                overflow: hidden; 
+            }
+
+            .social-button {
+                float: left;
+                width: 100px;
+                height: 20px;
+            }
