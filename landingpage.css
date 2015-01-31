@@ -1,5 +1,4 @@
 
-
 #form_benefits {
 	
 	background: #7db9e8; /* Old browsers */
@@ -49,7 +48,7 @@ border: 0;
 #form {
 	width: 48%;
 	height: auto;
-	display: inline;
+	display: inline-block;
 }
 
 #form h1{
@@ -67,6 +66,7 @@ border: 0;
 	text-align:center;
 	font: 1.4em Slabo;
 	text-align:center;
+	margin-right:18%;
 
 
 }
@@ -131,18 +131,41 @@ border: 0;
     font: 1.2em Slabo;
 }
 
-
 .choices {	
-	display: inline-block;
-	width:28%;
+	width: 28%;
+	display:inline-block;
 	text-align:center;
+	padding: 0 40px 0 20px;
+	vertical-align:top;
+	border-radius:5%;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	
+}
+
+.choices p {
+	font: 1.2em verdana;
 }
 
 .choices h1 {
-	font: 1.2em Slabo;
+	font: 2em simhei;
 	font-weight: bold;
 }
 
 footer {
 	clear:both;
+	font: 1em Slabo;
+	background: #b5bdc8; /* Old browsers */
+background: -moz-linear-gradient(top,  #b5bdc8 0%, #828c95 36%, #28343b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b5bdc8), color-stop(36%,#828c95), color-stop(100%,#28343b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+
+}
+#contact {
+	right: 10%;
 }
