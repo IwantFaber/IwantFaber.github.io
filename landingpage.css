@@ -43,7 +43,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 	-webkit-box-shadow: 9px 9px 11px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    9px 9px 11px 0px rgba(50, 50, 50, 0.75);
 box-shadow:         9px 9px 11px 0px rgba(50, 50, 50, 0.75);
-
+border: 0;
 }
 
 #form {
@@ -90,7 +90,7 @@ box-shadow:         9px 9px 11px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 5px 5px 6px #666666;
   box-shadow: 5px 5px 6px #666666;
   font-family: slabo;
-  color: #fafafa;
+  color: white;
   font-size: 1em;
   top:1px;
   padding: 10px 20px 10px 20px;
@@ -130,20 +130,19 @@ box-shadow:         9px 9px 11px 0px rgba(50, 50, 50, 0.75);
 :-ms-input-placeholder {  
     font: 1.2em Slabo;
 }
-#arrow {
-	margin-left: 80%;
+
+
+.choices {	
+	display: inline-block;
+	width:28%;
+	text-align:center;
 }
 
-#choose_local {
-	width: 28%;	
-	float:left;
+.choices h1 {
+	font: 1.2em Slabo;
+	font-weight: bold;
 }
 
-#choose_independent {
-	width: 28%;
-}
-
-#choose_now {
-	width: 28%;
-	float:right;
+footer {
+	clear:both;
 }
