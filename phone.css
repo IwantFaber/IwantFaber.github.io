@@ -16,7 +16,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 }
 
 #benefits {
-	width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
 	float: left;
 	font: 1.4em Slabo;
 	font-weight: bold;
@@ -24,11 +26,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', end
 }
 
 #form {
-	border-left: 25%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
 }
 
 #container {
-	visibility:hidden;
+	display:none;
 }
 
 footer {
